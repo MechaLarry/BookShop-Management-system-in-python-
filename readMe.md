@@ -24,7 +24,7 @@ Python 3
 Pipenv (for managing dependencies and the virtual environment)
 Installation Steps
 Clone the repository:
-git clone #enter the ssh key
+git clone git@github.com:MechaLarry/BookShop-Management-system-in-python-.git
 cd bookstore_management
 Set up a virtual environment with Pipenv:
 pipenv install
@@ -43,29 +43,19 @@ After setting up the project, you can use the CLI to interact with the system.
 
 Common Commands
 Add a new book:
-python main.py add-book --title "Book Title" --author "Author Name" --price 19.99 --stock 50
+python3 main.py add-book --title "Book Title" --author "Author Name" --price 19.99 --stock 50
 
 View all books:
-python main.py view-books
+python3 main.py view-books
 
 Add a customer:
-python main.py add-customer --name "John Doe" --email "johndoe@example.com"
+python3 main.py add-customer --name "John Doe" --email "johndoe@example.com"
 
 Process a sale (record a transaction):
-python main.py record-sale --customer-id 1 --book-id 2 --quantity 1
+python3 main.py record-sale --customer-id 1 --book-id 2 --quantity 1
 
 Generate a sales report:
-python main.py sales-report
-
-Project Commands and Options
-CLI Commands Overview
-add-book: Add a new book to the inventory.
-view-books: View a list of all available books.
-add-customer: Add a new customer to the system.
-view-customers: View all customers.
-record-sale: Record a sale (book transaction) for a customer.
-sales-report: Generate sales report summarizing revenue and popular books.
-Run python main.py --help to see a full list of commands and options.
+python3 main.py sales-report
 
 Database Schema
 The database consists of three related tables:
