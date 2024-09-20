@@ -1,0 +1,6 @@
+-- database: /mnt/c/Users/USER/Documents/MoringaSchool/Phase3/week3/Project/bookstore.db
+-- Use the ▷ button in the top right corner to run the entire file.
+SELECT
+    *
+FROM
+    customers;
